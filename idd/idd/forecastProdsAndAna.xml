@@ -403,6 +403,8 @@
                       olderThan="1 min"/>
           <tdm rewrite="test" rescan="0 0/2 * * * ? *"/>
           <gribConfig>
+            <!-- Convert from minutes to seconds so to avoid non-monotonic times due to rounding -->
+            <timeUnitConvert from="0" to="13"/>
             <filesSort increasing="false" />
           </gribConfig>
         </featureCollection>
@@ -448,6 +450,8 @@
                       olderThan="1 min"/>
           <tdm rewrite="test" rescan="0 0/2 * * * ? *"/>
           <gribConfig>
+            <!-- Convert from minutes to seconds so to avoid non-monotonic times due to rounding -->
+            <timeUnitConvert from="0" to="13"/>
             <filesSort increasing="false" />
           </gribConfig>
         </featureCollection>
@@ -478,6 +482,8 @@
                       olderThan="3 min"/>
           <tdm rewrite="test" rescan="0 0/5 * * * ? *"/>
           <gribConfig>
+            <!-- Convert from minutes to seconds so to avoid non-monotonic times due to rounding -->
+            <timeUnitConvert from="0" to="13"/>
             <filesSort increasing="false" />
           </gribConfig>
         </featureCollection>
@@ -493,6 +499,8 @@
                       olderThan="3 min"/>
           <tdm rewrite="test" rescan="0 0/5 * * * ? *"/>
           <gribConfig>
+            <!-- Convert from minutes to seconds so to avoid non-monotonic times due to rounding -->
+            <timeUnitConvert from="0" to="13"/>
             <filesSort increasing="false" />
           </gribConfig>
         </featureCollection>
@@ -508,6 +516,8 @@
                       olderThan="3 min"/>
           <tdm rewrite="test" rescan="0 0/5 * * * ? *"/>
           <gribConfig>
+            <!-- Convert from minutes to seconds so to avoid non-monotonic times due to rounding -->
+            <timeUnitConvert from="0" to="13"/>
             <filesSort increasing="false" />
           </gribConfig>
         </featureCollection>
